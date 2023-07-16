@@ -25,6 +25,9 @@ module.exports = {
     "@typescript-eslint/explicit-function-return-type": "off",
     "semi": ["error", "never"],
     "@typescript-eslint/semi": "off",
-    "no-unexpected-multiline": "error"
+    "no-unexpected-multiline": "error",
+    "@typescript-eslint/naming-convention": "off",
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': ['error', { 'varsIgnorePattern': '^_', "argsIgnorePattern": "^_" }],
   },
 };
