@@ -1,0 +1,11 @@
+node_modules
+dist
+.eslintrc.cjs
+.tsconfig.json
+src/vite-env.d.ts
+vite.config.ts
+vitest.config.ts
+airconsole.d.ts
+airconsole-events.d.ts
+rate-limiter.d.ts
+libs

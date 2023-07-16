@@ -20,5 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": ["src", "tests"],
+  "files": ["./airconsole.d.ts", "airconsole-events.d.ts", "rate-limiter.d.ts"]
 }
